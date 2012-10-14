@@ -22,4 +22,5 @@ class HubConfig {
  var $svn_password = 'dTdCqK8cr2';
  var $hubzero_ipgeo_url = 'http://hubzero.org/ipinfo/v1';
  var $hubzero_ipgeo_key = '_HUBZERO_OPNSRC_V1_';
+}
 ?>
