@@ -21,7 +21,7 @@ class JConfig {
 	var $log_path = '/var/www/example/logs';
 	var $tmp_path = '/var/www/example/tmp';
 	var $live_site = '';
-	var $force_ssl = '0';
+	var $force_ssl = '1';
 	var $offset = '-7';
 	var $caching = '0';
 	var $cachetime = '15';
@@ -50,13 +50,14 @@ class JConfig {
 	var $smtphost = 'localhost';
 	var $MetaAuthor = '1';
 	var $MetaTitle = '1';
-	var $lifetime = '15';
+	var $lifetime = '30';
 	var $session_handler = 'database';
 	var $cookiesubdomains = '0';
 	var $password = 'eSyHOQB653';
-	var $sitename = 'CI-Water Development Portal';
-	var $MetaDesc = 'Joomla! - the dynamic portal engine and content management system';
-	var $MetaKeys = 'joomla, Joomla';
+	var $sitename = 'CI-Water Portal';
+        var $sitedescription = 'Gateway Portal to Water Modeling Cyber-Infrastructure';
+	var $MetaDesc = 'CI-Water data intensive modeling, Hydrology modeling, HubZero based portal site';
+	var $MetaKeys = 'ciwater, hydrology, hubzero';
 	var $offline_message = 'This site is down for maintenance. Please check back again soon.';
 }
 ?>

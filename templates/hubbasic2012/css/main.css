@@ -477,13 +477,13 @@
 		box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
 		position: relative;
 		background: #fff;
-		height: 97px;
+		height: 100px;
 		z-index: 1;
 		box-shadow: 0 0.25em 0.25em -15px rgba(0, 0, 0, 0.6);
 	}
 	#masthead .inner {
 		padding: 0;
-		height: 97px;
+		height: 100px;
 		width: 100%;
 		background: transparent url("../images/layout/stripes.png") left top repeat-x;
 	}
@@ -498,16 +498,16 @@
 	#masthead h1 a {
 		position: relative; 
 		display: block; 
-		height: 44px;
+		height: 34px;
 		background: transparent;
 		border: none;
 		color: #c00;
 		background: transparent url("../images/logos/hub.png") 0 0 no-repeat;
 		font-family: 'Share-Regular', 'Impact', 'Arial Narrow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-		font-size: 35px;
+		font-size: 15px;
 		font-weight: normal;
 		font-style: normal;
-		padding: 24px 0 0 80px;
+		padding: 44px 0 0 0px;
 		color: #333;
 	}
 	#masthead h1 a:hover {
@@ -743,7 +743,7 @@
 		display: block; 
 		height: 0; 
 		clear: both; 
-		visibility: hidden;
+		visibility: hidden;                
 	}
 	#nav ul.menu,
 	#nav ul.menu li,
