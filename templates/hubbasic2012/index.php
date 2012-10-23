@@ -100,8 +100,8 @@ $this->setTitle($config->getValue('config.sitename') . ' - ' . $this->getTitle()
 					<div id="masthead" role="banner">
 						<div class="inner">
 							<h1>
-								<a href="<?php echo $this->baseurl; ?>" title="<?php echo $config->getValue('config.sitename'); ?>">
-									<span><?php echo $config->getValue('config.sitename'); ?></span>
+								<a href="<?php echo $this->baseurl; ?>" title="<?php echo $config->getValue('config.sitedescription'); ?>">
+									<span><?php echo $config->getValue('config.sitedescription'); ?></span>
 									<span class="tagline"><?php echo JText::_('TPL_HUBBASIC_TAGLINE'); ?></span>
 								</a>
 							</h1>
@@ -180,6 +180,7 @@ $this->setTitle($config->getValue('config.sitename') . ' - ' . $this->getTitle()
 						</div><!-- / #column-left -->
 						<div class="subject">
 <?php endif; ?>
+                                                   
 <?php if ($this->countModules('right')) : ?>
 					<div class="main section">
 						<div class="aside">
